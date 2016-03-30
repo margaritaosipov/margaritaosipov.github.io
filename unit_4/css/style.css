@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	text-alighn: center;
+	background-color:#FFFFFF;
+	font-family: 'muli', sans-serif;
+	font-size:16px; 
+	line-height: 1.3;
+	color: #999;
+
+}
+
+header {
+
+	background-color:#333B41;
+	padding:1.25em;
+	font-size:1.8em;
+	font-weight: bold;
+
+}
+
+.navlinks{
+	font-family: 'Unica One', sans-serif;
+	font-size:14px;
+	text-transform:uppercase;
+	text-decoration:none;
+	cursor:auto;
+	/*color: #81B9EA;*/
+	color:#fff;
+	margin-right: 8px;
+	font-weight: ;
+	letter-spacing: 2px;
+	border:none;
+}
+
+
+.workscreens {
+	width: 30em;
+	margin: 2em auto;
+}
+
+/*main {
+	padding: 20px;
+}*/
+
+
+
+h1 {
+	font-family: "Source Sans Pro", sans-serif;
+	padding:0.05em;
+	margin:0.05em;
+	font-size:2.em;
+	font-weight: bold;
+	/*color: #4B7EAB;*/
+	/*color:#999;*/
+}
+
+#keywords {
+	color:#fff;
+}
+
+a {
+	text-decoration:none;
+	color: #999;
+	padding-bottom:2px;
+
+}
+
+p{
+	font-family: 'Muli', serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	
+
+}
+
+img {
+	width: 30em;
+}
+
+/*main {
+	padding: 20px;
+}*/
+
+
+footer {
+	background-color: #F4EDE3;
+	padding:20px;
+	text-align: center;
+	background-color:#FFFFFF;
+}
+
+h3, h4, h5 {
+	margin:2em auto;
+	font-family:'Open Sans', 'Arial', sans-serif;
+
+}
+
+
+h2 {
+font-size:2.25em;
+}
+
+
+
+section {
+	align-content: left;
+	margin-left: 30%;
+
+}
+
+
+

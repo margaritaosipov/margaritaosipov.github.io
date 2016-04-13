@@ -1,0 +1,83 @@
+body {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+}
+
+section {
+	background: #222;
+	color: #fff;
+	overflow: auto;
+}
+
+div {
+	font-size: 1.2em;
+	width: 46%;
+	padding: 2%;
+	display: inline-block;
+}
+
+
+#projects {
+	float: left;
+}
+
+#testimonials {
+	float:right;
+}
+
+li {
+
+	float: left;
+	width: 50%;
+	height: 6em;
+	text-align: center;
+	line-height: auto;
+
+	
+
+
+}
+
+h1 {
+	font-size: 2em;
+
+}
+
+h2 {
+
+	font-size: 1.5em;
+	padding: .8em 0;
+	color: #fffebb;
+	border-bottom-color: #fffebb;
+}
+
+
+footer {
+	text-design: center;
+	padding: 1em 0;
+	clear: both;
+}
+
+#lander {
+	text-transform:uppercase;
+	font-family: 'Unica One', sans-serif;
+	font-size:14px;
+	background-color:#E8c66A;
+	border:none;
+
+
+}
+
+#keywords {
+	background-color: yellow;
+	text-decoration:none;
+	color: #999;
+	display: block;
+	padding:10px;
+	cursor:auto;
+	/*color: #81B9EA;*/
+	margin-right: 8px;
+	font-weight: ;
+	letter-spacing: 2px;
+}
+

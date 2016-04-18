@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+
+
+* {
+	margin: 0;
+	padding:0;
+box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none;
+}
+body {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+header{
+	background-color: #333B41;
+	font-weight: bold;
+	padding:1.25em;
+	bottom-margin: 2em;
+}
+
+main {
+	background-color: F0F0F0;
+}
+
+section {
+	color: #fff;
+	overflow: auto;
+}
+
+
+
+div {
+	font-size: 1.2em;
+	display: inline-block;
+}
+
+div #contact {
+	margin:5em;
+}
+
+article {
+	padding; 0.5;
+	margin: 1em;
+	float: left;
+	height:20em;
+
+}
+
+#projects {
+	float: right;
+	width: 80%;
+	padding: 2em;
+	margin: 0.05em;
+	height: auto;
+	text-align:;
+	line-height:;
+
+
+}
+
+
+
+
+#sidemenu {
+
+	float:left;
+	padding: 2%;
+	margin-left:2em;
+	width: 15%;
+	
+}
+
+h1 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size:2.2em;
+	padding:0.05em;
+	margin:0.05em;
+	color: #999;
+	
+
+
+}
+
+h2 {
+
+	font-size: 1.5em;
+	padding: .8em 0;
+	color: ;
+	border-bottom-color: #fffebb;
+}
+
+h3 {
+	color: #999;
+
+}
+
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+	background-color:;
+	display:block;
+}
+
+#lander {
+	text-transform:uppercase;
+	font-family: 'Unica One', sans-serif;
+	font-size:14px;
+	border:none;
+	float:right;
+
+
+
+
+}
+
+#keywords {
+	display: block;
+	padding:0.5em;
+	cursor:auto;
+	/*color: #81B9EA;*/
+	margin-right: ;
+	font-weight: ;
+	letter-spacing: 2px;
+	text-decoration: none;
+	margin-left: 20%;
+
+}
+
+#keywords a {
+	color: #fff;
+	text-decoration:none;
+	font-size:1.5em;
+	padding:0.5em;
+}
+
+#keywords a:hover {
+	background-color: #4D4D4D;
+
+}
+
+#lander a {
+		color: #999;
+	text-decoration:none;
+	padding:0.05em;
+	margin:2em;
+}
+	
+#lander a:hover {
+	background-color: #4D4D4D;
+
+}
+
+#sidemenu a {
+		font-family: "Source Sans Pro", sans-serif;
+	text-decoration:none;
+	color: #999;
+	display: block;
+	margin:1em;
+
+}
+
+#sidemenu a:hover {
+	color: #4D4D4D;
+
+}
+
+#contact
+{
+		clear: both;
+		background-color: #CCCCCC;
+		display:block;
+		margin-top: 20em;
+		
+}
+
+
+p {
+
+	color:black;
+
+}
+
+#projects img {
+	width: 400px;
+}
+
+#projects p {
+color:#4D4D4D; 
+margin: 0.5em;
+}
+
+#projects a {
+	color:#4D4D4D; 
+
+}
+
+.role {
+	font-weight: bold;
+}
+
+

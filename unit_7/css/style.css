@@ -56,7 +56,7 @@ article {
 }
 
 #projects {
-	float: right;
+	float: left;
 	width: 80%;
 	padding: 2em;
 	margin: 0.05em;
@@ -70,14 +70,14 @@ article {
 
 
 
-#sidemenu {
+/*#sidemenu {
 
 	float:left;
 	padding: 2%;
 	margin-left:2em;
 	width: 15%;
 	
-}
+}*/
 
 h1 {
 	font-family: "Source Sans Pro", sans-serif;
@@ -94,8 +94,9 @@ h2 {
 
 	font-size: 1.5em;
 	padding: .8em 0;
-	color: ;
+	color: #4D4D4D;
 	border-bottom-color: #fffebb;
+	text-align:center;
 }
 
 h3 {
@@ -155,7 +156,7 @@ footer {
 	background-color: #4D4D4D;
 
 }
-
+/*
 #sidemenu a {
 		font-family: "Source Sans Pro", sans-serif;
 	text-decoration:none;
@@ -168,7 +169,7 @@ footer {
 #sidemenu a:hover {
 	color: #4D4D4D;
 
-}
+}*/
 
 #contact
 {
@@ -180,12 +181,6 @@ footer {
 		
 }
 
-
-p {
-
-	color:black;
-
-}
 
 #projects img {
 	width: 400px;
@@ -208,10 +203,15 @@ margin: 0.5em;
 #education {
 	clear: both;
 	display: block;
-	color: black;
+	color: #4D4D4D;
 	background-color: #cdcdcd;
 	margin: 2em 0.5em;
 
+}
+
+#education p {
+	display: inline-block;
+	float: left;
 }
 
 
@@ -225,4 +225,3 @@ margin: 0.5em;
 #yourmessage {
 
 }
-

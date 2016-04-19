@@ -51,7 +51,7 @@ article {
 	padding; 0.5;
 	margin: 1em;
 	float: left;
-	height:20em;
+	height: auto;
 
 }
 
@@ -143,10 +143,6 @@ footer {
 	padding:0.5em;
 }
 
-#keywords a:hover {
-	background-color: #4D4D4D;
-
-}
 
 #lander a {
 		color: #999;
@@ -179,7 +175,8 @@ footer {
 		clear: both;
 		background-color: #CCCCCC;
 		display:block;
-		margin-top: 20em;
+		margin: 2em  0.5em;
+		height: 10em;
 		
 }
 
@@ -208,4 +205,24 @@ margin: 0.5em;
 	font-weight: bold;
 }
 
+#education {
+	clear: both;
+	display: block;
+	color: black;
+	background-color: #cdcdcd;
+	margin: 2em 0.5em;
+
+}
+
+
+#form article {
+	height: 10em;
+	width: 40em;
+	margin: 2em 10em;
+}
+
+
+#yourmessage {
+
+}
 

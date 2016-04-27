@@ -17,7 +17,9 @@ a {
 body {
 	font-size: 20px;
 	font-family: "Open Sans", sans-serif;
+	background-color:#999;
 	background-color:#F0F0F0;
+
 
 }
 
@@ -53,6 +55,9 @@ div #contact {
  	color:#999;
 }
 
+p {
+max-width: 17em;
+}
 img  {
 	width: 100%;
 }
@@ -100,17 +105,43 @@ h1 {
 	}
 
 h2 {
-	color: #999;
-	align-content: center;
+	color: #FFF;
+	al
 
 }
+
+
 
 
 footer {
 	text-align: center;
 	padding: 1em 0;
-	background-color:;
+	background-color:#333B41;
 	display:block;
+	color:#999;
+}
+
+footer a {
+
+color:#999;
+
+}
+
+
+
+
+#keywords {
+	display: block;
+	padding:0.5em;
+	letter-spacing: 0.1em;
+	margin-left: 20%;
+
+}
+
+ #keywords div {
+	color: #fff;
+	font-size:1.5em;
+	padding:0.5em;
 }
 
 #lander {
@@ -125,27 +156,8 @@ footer {
 
 }
 
-#keywords {
-	display: block;
-	padding:0.5em;
-	margin-right: ;
-	font-weight: ;
-	letter-spacing: 0.1em;
-	text-decoration: none;
-	margin-left: 20%;
-
-}
-
-#keywords a {
-	color: #fff;
-	text-decoration:none;
-	font-size:1.5em;
-	padding:0.5em;
-}
-
-
 #lander a {
-		color: #999;
+	color: #999;
 	text-decoration:none;
 	padding:0.05em;
 	margin:2em;
@@ -160,20 +172,14 @@ footer {
 #contact
 {
 		clear: both;
-		background-color: #CCCCCC;
+		background-color: #999;
 		display:block;
-		margin: 2em  0.5em;
 		height: 10em;
+		width:97%;
+		margin:1.5%;
 		
 }
 
-
-
-
-#projects p{
-
-
-}
 
 	
 
@@ -184,7 +190,7 @@ footer {
 }
 
 .role {
-	font-family:  "Muli", sans-serif;
+	font-family:  "Open Sans", sans-serif;
 	font-weight: bolder;
 }
 
@@ -193,24 +199,37 @@ img + p {
 }
 
 #certificates {
-
-	clear: both;
-	display: block;
-	color: #4D4D4D;
-	margin: 2em 0.5em;
+	width: 95%
+	color: #FFF;
+	margin: 1.5%;
 	text-transform: capitalize;
 	font-weight: bold;
-	align-items:stretch;
+	background-color:#999;
+
 
 }
 
-
-
-/*#form article {
-	height: 10em;
-	width: 40em;
-	margin: 2em 10em;
+/*#certificates p{
+	text-align: center;
+	
 }*/
+
+
+#certificates {
+	text-align: center;
+	
+}
+
+
+/*
+#contact input {
+	display: block;
+}*/
+
+textarea {
+	width: 100%;
+
+}
 
 .wrapper {
 	background-color:#999;
@@ -219,6 +238,77 @@ img + p {
 
 }
 
-#yourmessage {
 
+
+
+@media only screen and (max-width: 1360px) {
+	#keywords div {
+		display:block;
+		float:none;
+		width:auto;
+		font-size: 0.8em; 
+		padding: 0;
+		margin-left: 0;
+	}
+
+	h1 {
+		
+		font-size: 1.5em;
+		text-align: center;
+
+	}
+
+	#lander {
+		display: block;
+	float:none;
+	font-size:1em;
+/*	margin:0.5em;
+	padding: 0.2em;*/
+	}	
+
+	#lander a {
+		margin: 0.5em;
+		padding:0.2em;
+		font-size: 1em;
+	}
+
+	header {
+		padding:0.2em;
+		margin:0.2em;
+	}
+
+}
+
+@media only screen and (max-width: 852px) {
+.projects {
+	background-color: #F0F0F0;
+	padding: 0.5em;
+	float: none; 
+	width: auto;
+/*	min-height: 20em;*/
+	text-align: center;
+	color:#333B41;
+	margin: 2%;
+/*	display:block;*/
+	width: 95%;
+	}
+
+	#projects {
+		width: 95%;
+
+	}
+
+
+}
+
+
+@media only screen and (min-width: 932px) {
+	#lander {
+	float:none;
+	text-align: center;
+	font-size:1.5em;
+/*	margin:0.5em;
+	padding:;*/
+
+	}
 }
